@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+body {
+  background-color:FFCEFE;
+  color: rgb(0, 0, 20);
+  font-family: century;
+  font-weight: 300;
+  font-size: 30;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  color: blue;
+  font-family: "DM Sans";
+  font-weight: bold;
+}
+
+
+a{
+  text-transform: capitalize;
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div{
+  background-color: FFE7CE;
+  padding: 30;
+  border: 1px solid E7CEA6;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+ul {
+  max-width: 50px;
+  margin: 0 auto;
+
+}
+
+#btn-wagon{
+  background-color: blue;
+  border-radius: 5px;
+}
